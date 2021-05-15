@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+nav.container {
+  top: 20px;
+  background-color: black;
+}
+a.navbar-brand {
+  background-color: rgb(236, 172, 53);
+  color: white;
+}
+
+a.nav-link {
+  color: white;
+}
+
+a.nav-link:hover {
+  background-color: rgb(236, 172, 53);
+}
+button.search {
+  color: #fff;
+  border-color: rgb(236, 172, 53);
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: rgb(236, 172, 53);
+  border-color: rgb(236, 172, 53);
+}
+
+main {
+  margin-top: 5%;
+}
+
+div.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  text-align: center;
+}
