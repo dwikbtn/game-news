@@ -29,18 +29,58 @@ button.search {
   border-color: rgb(236, 172, 53);
 }
 
+/* main content start here */
 main {
   margin-top: 5%;
 }
 
+/* trending article here */
 div.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
   align-items: center;
   justify-content: center;
 }
 
 .column {
   text-align: center;
+}
+
+.grid-column-1 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: none; /* no underline */
+}
+a.read-article {
+  background-color: black;
+  color: #fff;
+  border-color: rgb(236, 172, 53);
+}
+
+a.read-article:hover {
+  background-color: rgb(236, 172, 53);
+  color: #fff;
+  border-color: rgb(236, 172, 53);
+}
+
+.card-title {
+  color: rgb(236, 172, 53);
+}
+
+.card-title:hover {
+  color: rgb(236, 172, 53);
+}
+
+.card-text:hover {
+  color: rgb(236, 172, 53);
+}
+
+.grid-column-1 {
+  width: 100%;
 }
