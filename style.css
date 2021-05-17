@@ -13,6 +13,9 @@ a.navbar-brand {
   background-color: rgb(236, 172, 53);
   color: white;
 }
+.date {
+  font-size: 12px;
+}
 
 a.nav-link {
   color: white;
